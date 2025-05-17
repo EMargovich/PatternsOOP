@@ -1,6 +1,6 @@
 public interface AbstractFactory {
 
-    public AbstractProductA createProductA();
-    public AbstractProductB createProductB();
+    public AbstractProductA createProductA(int n);
+    public AbstractProductB createProductB(int n);
 
 }
